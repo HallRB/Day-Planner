@@ -1,0 +1,111 @@
+body {
+    background-color:skyblue;
+    font-family:'Nanum Pen Script', cursive;
+;
+}
+#idHeader {
+background-color: steelblue;
+color: whitesmoke;
+text-align: center;
+width: 76%;
+margin-left: 12%;
+margin-right: 12%;
+}
+#idTimeNow {
+    margin-top: 5px;
+    padding-top: -5px;
+    padding-bottom: -15px;
+    font-size: 45px;
+    background-color:royalblue;
+}
+.classTitle {
+    margin-top: -55px;
+    font-size: 65px;
+    padding-top: 8px;
+    padding-bottom: -5px;
+}
+.classTasks {
+    margin-top: -45px;
+    padding-top: 0;
+    background-color: rgb(30, 23, 73);
+    height: auto;
+    width: 76%;
+    margin-left: 12%;
+    margin-right: 12%;
+}
+textarea {
+    background-color: whitesmoke;
+    border-color: rgb(100, 122, 185);
+    border-width: 5px;
+    margin-top: 0px;
+    height: 70px;
+    width: 76%;
+    margin-left: 12%;
+    margin-right: 12%;
+    justify-items: left;
+    font-size: 20px;
+    resize: none;
+    font-family: 'Nanum Pen Script', cursive;
+    position: relative;
+    border-style: solid;
+}
+.classTimeBox {
+    display: block;
+    background-color:skyblue;
+    width:7%;
+    border-width: 5px;
+    border-color: rgb(100, 122, 185);
+    height: 65px;
+    position: absolute;
+    border-style: solid;
+    text-align: center;   
+    font-size: 30px;
+    padding-top: 10px;
+    padding-bottom: -5px;
+}
+.classTimeBoxText {
+    margin-top: -40px;
+    align-self: right;
+}
+.classSaveButtonContainer {
+    display: block;
+    background-color:skyblue;
+    width:5%;
+    border-width: 5px;
+    border-color: rgb(100, 122, 185);
+    height: 64px;
+    position: absolute;
+    border-style: solid;
+    text-align: center;   
+    font-size: 30px;
+    padding-top: 10px;
+    padding-bottom: -5px;
+    align-self: right;
+    margin-left: 68%;
+    margin-top: -91px;
+}
+.classSaveButton {
+    display: block;
+  border: none;
+  color: white;
+  text-align: center;
+  text-decoration: none;
+  font-size: 16px;
+  align-self: right;
+  position: absolute;
+  left: 1%;
+  right: -1%;
+  top: 40%;
+
+  }
+ 
+  .past {
+    background-color: rgb(28, 116, 151);
+    color: whitesmoke
+  }
+
+  .future {
+      background-color: rgb(45, 172, 223);
+      color: whitesmoke
+  }
+
