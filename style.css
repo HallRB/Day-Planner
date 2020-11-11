@@ -105,6 +105,11 @@ textarea {
     font-weight: 800;
   }
 
+.present {
+    background-color: aqua;
+    color: black;
+}
+
   .future {
       background-color: rgb(45, 172, 223);
       color: whitesmoke

@@ -94,52 +94,71 @@ function functionUserEntry9() {
 $(function() {
   
   var current_date = new Date();
-  var hour = current_date.getHours();
+  var hour = current_date.getHours(+1);
   
-  if(hour > 9) {
+  if((hour + 1)  > 9) {
     $('.classTextArea1').addClass('past');
     
+  } else if ((hour + 1)  < 9){
+    $('.classTextArea1').addClass('present');
   } else {
-    $('.classTextArea1').addClass('future');
-  }
-  if(hour > 10) {
-    $('.classTextArea2').addClass('past');
-  } else {
-    $('.classTextArea2').addClass('future');
-  }
-  if(hour > 11) {
-    $('.classTextArea3').addClass('past');
-  } else {
-    $('.classTextArea3').addClass('future');
-  }
-  if(hour > 12) {
-    $('.classTextArea4').addClass('past');
-  } else {
-    $('.classTextArea4').addClass('future');
-  }
-  if(hour > 13) {
-    $('.classTextArea5').addClass('past');
-  } else {
-    $('.classTextArea5').addClass('future');
-  }
-  if(hour > 14) {
-    $('.classTextArea6').addClass('past');
-  } else {
-    $('.classTextArea6').addClass('future');
-  }
-  if(hour > 15) {
-    $('.classTextArea7').addClass('past');
-  } else {
-    $('.classTextArea7').addClass('future');
-  }
-  if(hour > 16) {
-    $('.classTextArea8').addClass('past');
-  } else {
-    $('.classTextArea8').addClass('future');
-  }
-  if(hour > 17) {
-    $('.classTextArea9').addClass('past');
-  } else {
-    $('.classTextArea9').addClass('future');
-  }
+    $('.classTextArea1').addClass('future');}
+
+
+    if((hour + 1) > 10) {
+      $('.classTextArea2').addClass('past');
+    } else if ((hour + 1) < 10){
+      $('.classTextArea2').addClass('present');
+    } else {
+      $('.classTextArea2').addClass('future');}
+  
+    if((hour+1) > 11) {
+      $('.classTextArea1').addClass('past');
+    } else if (hour < 11){
+      $('.classTextArea3').addClass('present');
+    } else {
+      $('.classTextArea3').addClass('future');}
+
+    if(hour > 12) {
+      $('.classTextArea4').addClass('past');
+    } else if (hour < 12){
+      $('.classTextArea4').addClass('present');
+    } else {
+      $('.classTextArea4').addClass('future');}
+
+    if(hour > 13) {
+      $('.classTextArea5').addClass('past');
+    } else if (hour < 13){
+      $('.classTextArea5').addClass('present');
+    } else {
+      $('.classTextArea5').addClass('future');}
+
+    if(hour > 14) {
+      $('.classTextArea6').addClass('past');
+    } else if (hour < 14){
+      $('.classTextArea6').addClass('present');
+    } else {
+      $('.classTextArea6').addClass('future');}
+
+    if(hour > 15) {
+      $('.classTextArea7').addClass('past');
+    } else if (hour < 15){
+      $('.classTextArea7').addClass('present');
+    } else {
+      $('.classTextArea7').addClass('future');}
+
+    if(hour > 16) {
+      $('.classTextArea8').addClass('past');
+    } else if (hour <16){
+      $('.classTextArea8').addClass('present');
+    } else {
+      $('.classTextArea8').addClass('future');}
+        
+    if(hour > 17) {
+      $('.classTextArea9').addClass('past');
+    } else if (hour <16){
+      $('.classTextArea9').addClass('present');
+    } else {
+      $('.classTextArea9').addClass('future');}
+
 });
